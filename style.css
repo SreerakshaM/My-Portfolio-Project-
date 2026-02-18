@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(165, 111, 111);
+    color: rgb(2, 5, 7)
+}
+
+/*Header*/
+header {
+    color: rgb(12, 19, 26);
+    background-color: rgb(26, 145, 181);
+    padding: 30px 25px;
+    position: sticky;
+    top: 0;
+    z-index: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1100px;
+}
+
+h1 {
+    margin-top: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(26, 199, 197);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(122, 108, 118);
+}
+
+.hero {
+    padding: 30px 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(210, 227, 228);
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*About Section*/
+section {
+    padding: 40px 20px;
+    margin-bottom: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    font-size: larger;
+}
+
+/*Skills Sections*/
+.skills-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.skills-card {
+    background-color: rgb(172, 203, 228);
+    border-radius: 7px;
+    border-color: black;
+    color: rgb(70, 91, 94);
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: rgb(172, 203, 228);
+    border-radius: 7px;
+    color: rgb(70, 91, 94);
+    text-align: center;
+    box-shadow: 0px 8px 10px;
+    border: 2px solid black;
+}
+
+/* Projects */
+
+.projects {
+    display: grid;
+    /* grid-template-columns:repeat(); */
+    gap: 20px;
+}
+
+.project-card {
+    background: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+}
+
+.project-card:hover {
+    color: darkgoldenrod;
+    box-shadow: 0px 8px 18px rgba(87, 32, 32, 0.5);
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
